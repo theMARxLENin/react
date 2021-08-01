@@ -1,0 +1,44 @@
+body {
+  min-width: 640px;
+}
+
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  padding-left: 15px;
+  font-size: medium;
+  height: 40px;
+  width: 500px;
+  border: 2px solid blueviolet;
+  border-radius: 25px;
+}
+
+.search-bar:focus {
+  outline: none;
+  background-color: rgb(245, 255, 159);
+}
+
+.cards-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+}
+
+.card {
+  margin-bottom: 15px;
+  height: 300px;
+  width: 250px;
+  border: 2px solid silver;
+}
+.card img {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+}
